@@ -29,4 +29,4 @@ router.get("/", (req, res) => {
   res.json(users);
 });
 
-export { router as UsersRouter };
+export { router as usersRouter };
