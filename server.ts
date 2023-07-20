@@ -15,6 +15,6 @@ app.use("/", rootRouter);
 app.use("/users", usersRouter);
 
 app.listen(port, () => {
-  console.log("my-express-server is running on port 3001");
-  console.log("Test at http://localhost:3001/status");
+  console.log(`Server is running on port ${port}`);
+  console.log(`Test status with http://localhost:${port}/status`);
 });
